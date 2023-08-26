@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #333;
+}
+
+.title,
+.socialLinks {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.title {
+  width: 100%;
+  margin: 30px 0px;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.socialLinks {
+  width: 300px;
+  margin: 20px;
+  column-gap: 20px;
+  background: #d9d9d9;
+  padding: 0 20px;
+  border-radius: 25px;
+}
+
+.socialLinks h3 {
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.socialLinks a i {
+  font-size: 1.5em;
+  color: #000;
+}
+
+/* .banner{
+    width: 90vw;
+    border-radius: 90px;
+} */
+
+.projects {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.projectImg {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content a button {
+  border: none;
+  padding: 10px;
+  background: orange;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+}
